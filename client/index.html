@@ -1,0 +1,28 @@
+<!Doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<body>
+		<div class="sidebar">
+			<ul class="navbar-ul">
+				<li class="navbar-ul-title"><b>Code Style</b></li>
+				<li class="navbar-ul-el"><a class="navbar-link" href="#">Raw CSS and Jquery</a></li>
+			</ul>
+		</div>
+		<div class="main-body">
+			<div class="todo-list-block">
+				<h1>To Do List</h1>
+				<ul id="todoUl" class="todo-list-ul">
+				</ul>
+				<form action="javascript:void(0);">
+					<input id="todoInput" class="todo-list-text-input" type="text" name="todoItem">
+					<input type="submit" value="add" onclick="addUlItem()">
+				</form>
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>
